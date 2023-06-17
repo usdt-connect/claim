@@ -1,0 +1,141 @@
+html,body{
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+a{
+	text-decoration: none !important;
+	color: #9b59b6;
+}
+a:hover{
+	color: #8e44ad;
+}
+
+.menu{
+	background: rgba(0, 0, 0, 0.1);
+	padding: 25px;
+}
+
+.title b{
+	font-size: 6vw;
+}
+
+.wallet{
+	color: #9b59b6;
+}
+
+.wallet img{
+width: 50%;
+}
+
+.wallet b{
+	font-size: 5vw;
+}
+.wallet i{
+	font-size: 5vw;
+}
+
+#header{
+padding: 10px 0;
+background: #3498db;
+}
+
+.import-account-title{
+	font-size: 3.5vw;
+	font-weight: bold;
+}
+
+.tw-btn:hover{
+	background: #2980b9 !important;
+}
+
+.mm-btn:hover{
+	background: #d35400 !important;
+}
+
+button:hover{
+	background: #8e44ad !important;
+}
+
+@media (max-width: 2080px) {
+	.mew_wallet img{
+		width: 23vw;
+	}
+	.import-account{
+		margin: 60px 400px 60px 30px;
+	}
+	.footer_text{
+		font-size:3vw;
+	}
+
+	.import-account-title{
+		font-size: 3.5vw;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 1400px) {
+	.mew_wallet img{
+		width: 23vw;
+	}
+	.import-account{
+		margin: 60px 400px 60px 30px;
+	}
+	.wallet .footer_text{
+		font-size:3vw;
+	}
+}
+@media (max-width: 1200px) {
+	.mew_wallet img{
+		width: 20vw;
+	}
+	.import-account{
+		margin: 60px 400px 60px 30px;
+	}
+	.wallet .footer_text{
+		font-size:3vw;
+	}
+}
+@media (max-width: 992px) {
+	.mew_wallet img{
+		width: 20vw;
+	}
+	.import-account{
+		margin: 60px 60px;
+	}
+	.wallet .footer_text{
+		font-size:3vw;
+	}
+}
+@media (max-width: 768px) {
+	.mew_wallet img{
+		width: 20vw;
+	}
+	.import-account{
+		margin: 60px 40px;
+	}
+	.wallet .footer_text{
+		font-size:4vw;
+	}
+
+	.import-account-title{
+		font-size: 4vw;
+		font-weight: bold;
+	}
+}
+@media (max-width: 576px) {
+	.mew_wallet img{
+		width: 16vw;
+	}
+	.wallet .footer_text{
+		font-size:4vw;
+	}
+
+	.import-account-title{
+		font-size: 5.5vw;
+		font-weight: bold;
+	}
+}
